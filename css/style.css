@@ -1,0 +1,199 @@
+/* Enter your Styles below! */
+
+
+body { 
+	font-family: 'Corben', cursive;
+	color: black;
+	font-size: 16px;
+	line-height: 1.25;
+}
+
+section {
+	height: 150vh;
+	width: 100vw;
+	position: sticky;
+	top: -1px;
+	background-color: white;
+}
+
+main{
+	;
+}
+
+h1 {
+	font-family: 'Almendra Display', cursive;
+	font-size: 60px;
+	color: black;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+h2 {
+	font-family: 'Almendra Display', cursive;
+	font-size: 36px;
+	text-align: center;
+	color: black;
+}
+
+h3 {
+	font-family: 'Almendra Display', cursive;
+	font-size: 80px;
+	text-align: center;
+	color: black;
+}
+
+blockquote {
+	margin: 20px 60px;
+	font-family: prestige-elite-std, monospace;
+	font-weight: 700;
+	font-style: normal;
+	color: rgb(243,210,199);
+	text-align: center;
+}
+
+header {margin-bottom: 20px;}
+
+/* ensures that your images stretch the width of their containers */
+img { width: 100%; }
+
+a { 
+	color: rgb(243,210,199);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(255,0,127);
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(1fr 1fr);
+	width: 80%;
+	margin: auto;
+	align-content: center;
+	grid-auto-flow: dense;
+}
+
+.grid div {
+	background-color: rgb(113,202,204);
+	padding: 20px;
+}
+
+header {
+	text-align: center;
+	position: fixed;
+	width: 100%;
+}
+
+.navbar {
+	display: none;
+}
+
+nav li {
+	display: inline-block;
+	font-family: bee, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 60px;
+	padding: 20px;
+}
+
+footer {
+	text-align: center;
+	background-color: rgb(243,210,199);
+	padding: 20px;
+	text-decoration-color: rgb(255,0,127);
+	position: fixed;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+	background-color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+	background-color: rgb(255,0,127);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+	border-radius: 5px;
+	background-color: rgb(243,210,199);
+	margin: auto;
+	width: 50%;
+	padding: 20px;
+}
+
+.section-contact {
+	padding-bottom: 50px;
+	background-image: url(https://images.squarespace-cdn.com/content/v1/5c469afde17ba36d00492a6c/1552020979147-8MUD893JKZQILB8TJN62/ke17ZwdGBToddI8pDm48kEP3XILZbd6clkwwwPPDzGJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USJfBMlwhtiUUFKQ2Qtzx-UONIfB-9RFWha3Hf_VomFI5ck0MD3_q0rY3jFJjjoLbQ/23rd.jpg?format=2500w);
+	background-size: cover;
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		background-color: orange;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 40px;
+		width: 70%;
+		margin: auto;
+	}
+
+	.section-one {
+		max-height: 75%;
+	}
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+	body {
+		background-color: salmon;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 40px;
+		width: 70%;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	body {
+		background-color: white;
+	}
+
+	.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-gap: 40px;
+		width: 80%;
+		margin: auto;
+		padding-top: 40px;
+	}
+}
