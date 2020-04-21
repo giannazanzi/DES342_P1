@@ -3,7 +3,6 @@
 
 body { 
 	font-family: 'Corben', cursive;
-	color: black;
 	font-size: 16px;
 	line-height: 1.25;
 }
@@ -13,7 +12,6 @@ section {
 	width: 100vw;
 	position: sticky;
 	top: -1px;
-	background-color: white;
 }
 
 main{
@@ -23,7 +21,6 @@ main{
 h1 {
 	font-family: 'Almendra Display', cursive;
 	font-size: 60px;
-	color: black;
 	margin: auto;
 	text-align: center;
 	padding-top: 50px;
@@ -34,23 +31,40 @@ h2 {
 	font-family: 'Almendra Display', cursive;
 	font-size: 36px;
 	text-align: center;
-	color: black;
 }
 
 h3 {
 	font-family: 'Almendra Display', cursive;
 	font-size: 80px;
 	text-align: center;
-	color: black;
 }
 
-blockquote {
-	margin: 20px 60px;
-	font-family: prestige-elite-std, monospace;
-	font-weight: 700;
-	font-style: normal;
-	color: rgb(243,210,199);
-	text-align: center;
+.section-logo, .opening, .bearcountry, .tomorrowland, .cars {
+	background-color: lavenderblush;
+	color: blue;
+}
+
+.neworleans, .toontown, .caladventure, .starwars {
+	background-color: blue;
+	color: lavenderblush;
+}
+
+.leftside, .rightside {
+	height: 100vh;
+	width: 100%;
+}
+
+.leftside {
+	background: white;
+}
+
+.neworleans-grid {
+	display: inline-grid;
+	grid-column: 1fr 1fr;
+}
+
+.castle {
+	column-width: 50%;
 }
 
 header {margin-bottom: 20px;}
