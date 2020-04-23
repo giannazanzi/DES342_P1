@@ -15,7 +15,7 @@ section {
 }
 
 main{
-	;
+
 }
 
 h1 {
@@ -39,7 +39,12 @@ h3 {
 	text-align: center;
 }
 
-.section-logo, .opening, .bearcountry, .tomorrowland, .cars {
+.section-logo {
+	background-color: lavenderblush;
+	color: blue;
+}
+
+ .opening, .bearcountry, .tomorrowland, .cars {
 	background-color: lavenderblush;
 	color: blue;
 }
@@ -49,22 +54,26 @@ h3 {
 	color: lavenderblush;
 }
 
+footer {
+	background-color: blue;
+	color: lavenderblush;
+	height: 10vh;
+	width:100%;
+	text-align: center;
+	padding: 20px;
+	display: inline-block;
+}
+
 .leftside, .rightside {
 	height: 100vh;
 	width: 100%;
 }
 
-.leftside {
-	background: white;
-}
 
-.neworleans-grid {
-	display: inline-grid;
-	grid-column: 1fr 1fr;
-}
-
-.castle {
-	column-width: 50%;
+.neworleans-grid, .opening-grid, .bearcountry-grid, .toontown-grid, .tomorrowland-grid, .caladventure-grid, .cars-grid, .starwars-grid {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 20px;
 }
 
 header {margin-bottom: 20px;}
@@ -114,13 +123,7 @@ nav li {
 	padding: 20px;
 }
 
-footer {
-	text-align: center;
-	background-color: rgb(243,210,199);
-	padding: 20px;
-	text-decoration-color: rgb(255,0,127);
-	position: fixed;
-}
+
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
@@ -149,20 +152,6 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.container {
-	border-radius: 5px;
-	background-color: rgb(243,210,199);
-	margin: auto;
-	width: 50%;
-	padding: 20px;
-}
-
-.section-contact {
-	padding-bottom: 50px;
-	background-image: url(https://images.squarespace-cdn.com/content/v1/5c469afde17ba36d00492a6c/1552020979147-8MUD893JKZQILB8TJN62/ke17ZwdGBToddI8pDm48kEP3XILZbd6clkwwwPPDzGJ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1USJfBMlwhtiUUFKQ2Qtzx-UONIfB-9RFWha3Hf_VomFI5ck0MD3_q0rY3jFJjjoLbQ/23rd.jpg?format=2500w);
-	background-size: cover;
-}
-
 @media only screen and (min-width: 768px) {
 	body {
 		background-color: orange;
