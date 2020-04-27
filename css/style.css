@@ -39,6 +39,14 @@ h3 {
 	text-align: center;
 }
 
+.right-img {
+	height: 100%;
+}
+
+.left-img {
+	background-image: url(neworleans.jpg);
+}
+
 .section-logo {
 	background-color: lavenderblush;
 	color: blue;
@@ -63,12 +71,6 @@ footer {
 	padding: 20px;
 	display: inline-block;
 }
-
-.leftside, .rightside {
-	height: 100vh;
-	width: 100%;
-}
-
 
 .neworleans-grid, .opening-grid, .bearcountry-grid, .toontown-grid, .tomorrowland-grid, .caladventure-grid, .cars-grid, .starwars-grid {
 display: grid;
