@@ -31,6 +31,7 @@ h2 {
 	font-family: 'Almendra Display', cursive;
 	font-size: 36px;
 	text-align: center;
+	padding-top: 10px;
 }
 
 h3 {
@@ -39,12 +40,52 @@ h3 {
 	text-align: center;
 }
 
-.right-img {
-	height: 100%;
+.opening-img {
+	background-image: url(https://cdn.theatlantic.com/assets/media/img/photo/2019/07/opening-day-disneyland-photos-1955/d01_53374353-1/original.jpg);
+	height: 100%
+	width: auto;
 }
 
-.left-img {
-	background-image: url(neworleans.jpg);
+.no-img {
+background-image: url(https://oi77.photobucket.com/albums/j64/darkfairycthulu/Disneyland%20ephemera/nosstreet.jpg);
+	height: 100%
+	width: auto;
+}
+
+.bear-img {
+background-image: url(https://dyn1.heritagestatic.com/lf?set=path%5B2%2F0%2F9%2F0%2F5%2F20905492%5D&call=url%5Bfile%3Aproduct.chain%5D);
+	height: 100%
+	width: auto;
+}
+
+.toontown-img {
+background-image: url(https://disneyparksnews.com/uploads/sites/2/2012/01/8_10_DL_00997.jpg);
+	height: 100%
+	width: auto;
+}
+
+.tomorrowland-img {
+background-image: url(https://pbs.twimg.com/media/DcYoIOGVwAEkJbD.jpg);
+	height: 100%
+	width: auto;
+}
+
+.cal-img {
+background-image: url(https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2012/06/sta289673LARGE.jpg);
+	height: 100%
+	width: auto;
+}
+
+.cars-img {
+background-image: url(https://i.ytimg.com/vi/e-4lxg01nAo/maxresdefault.jpg);
+	height: 100%
+	width: auto;
+}
+
+.starwars-img {
+background-image: url(https://www.thesun.co.uk/wp-content/uploads/2019/05/NINTCHDBPICT000493639245.jpg);
+	height: 100%
+	width: auto;
 }
 
 .section-logo {
@@ -66,7 +107,6 @@ footer {
 	background-color: blue;
 	color: lavenderblush;
 	height: 10vh;
-	width:100%;
 	text-align: center;
 	padding: 20px;
 	display: inline-block;
@@ -75,7 +115,11 @@ footer {
 .neworleans-grid, .opening-grid, .bearcountry-grid, .toontown-grid, .tomorrowland-grid, .caladventure-grid, .cars-grid, .starwars-grid {
 display: grid;
 grid-template-columns: 1fr 1fr;
-grid-gap: 20px;
+grid-gap: 0px;
+}
+
+p {
+	padding: 40px;
 }
 
 header {margin-bottom: 20px;}
