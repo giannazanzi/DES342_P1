@@ -20,6 +20,8 @@
 				</ul>
 			</nav>
 			<h3>A Timeline of Disneyland</h3>
+			<p>This was how my project had originally began; I had wanted to focus on something light and fun due to how serious things had become, and Disneyland has always been a place that I associate with happiness and ease. Growing up in California, my family and I would travel to Anaheim once a year to visit Disneyland - we would lazily walk around the park, revisiting our favorite rides and attractions, eating churros and dole whips. I had wanted to use those memories of Disneyland to make a timeline of the park, but as I kept working on it, the more unmotivated I became to finish it...</p>
+			<p>scroll down</p>
 		</header>
 		<p>
 		</p>
@@ -133,15 +135,47 @@
 				Quinoa chartreuse lyft coloring book fashion axe. Neutra godard 90's, hammock quis you probably haven't heard of them do shabby chic. Try-hard sartorial woke mollit knausgaard chambray. Pinterest bicycle rights anim mustache shaman.</p>
 			</div>
 		</section>
+		<section class="section-logo">
+			<p>Quickly, I realized that I wasn't feeling unmotivated because I didn't want to make a website about Disneyland, but instead, it was because I hadn't stopped to process how I had been feeling. In the past two months, I have become unemployed, have moved up to Washington to quarantine with my parents, and had come to the realization that we really were in a pandemic and that my perception of 'normal' had changed.</p>
+			<a href="subpage-one.html">
+				<h3>></h3>
+			</a>
+		</section>
 	</main>
 
-	<footer>
-		<!-- footer content here -->
-		&copy; Gianna Zanzi 2020
-	</footer>
-
 	<!-- link for jquery -->
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+	<script src="js/jquery-canvas-sparkles.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+		$("h3").sparkle({
+			color: "#FFFFFF",
+			count: 30,
+			overlap: 0,
+			speed: 1,
+			minSize: 4,
+			maxSize: 7,
+			direction: "both"
+		});
+		$("h3").sparkle({
+			color: "#0000FF"
+		});
+		$("h3").sparkle({
+			count: 50
+		});
+		$("h3").sparkle({
+			overlap: 20
+		});
+		$("h3").sparkle({
+			speed: 1.2
+		});
+		$("h3").sparkle({
+			minSize: 2,
+			maxSize: 6
+		});
+		$("h3").sparkle({
+			direction: "both"
+		});
+	</script>
 </body>
 </html>
