@@ -15,7 +15,7 @@ section {
 }
 
 main{
-
+	background-color: lavenderblush;
 }
 
 h1 {
@@ -39,6 +39,11 @@ h3 {
 	font-size: 80px;
 	text-align: center;
 }
+
+.frontpage {
+display: auto;
+}
+
 
 .opening-img {
 	background-image: url(https://cdn.theatlantic.com/assets/media/img/photo/2019/07/opening-day-disneyland-photos-1955/d01_53374353-1/original.jpg);
@@ -128,12 +133,12 @@ header {margin-bottom: 20px;}
 img { width: 100%; }
 
 a { 
-	color: rgb(243,210,199);
+	color: blue;
 	text-decoration: none;
 }
 
 a:hover {
-	color: rgb(255,0,127);
+	color: blue;
 }
 
 .grid {
