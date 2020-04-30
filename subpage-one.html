@@ -25,14 +25,47 @@
 		
 	</header>
 	<main>
-		<div></div>
+	<div class="section-end">
+			<h4>After I had realized and recognized how I was feeling, it almost seemed like my capabilities to sit down and produce work that I was proud of had plummeted like it had gone on the Tower of Terror, or Splash Mountain.</h4>
+			<a href="subpage-two.html">
+				<h3>></h3>
+			</a>
+		</div>
 	</main>
 
 	<!-- link for jquery -->
 	<script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
-	<script src="js/jqfloat.js"></script>
 	<script src="js/jquery-canvas-sparkles.js"></script>
 	<script src="js/main.js"></script>
-	
+	<script>
+		$("h3").sparkle({
+			color: "#FFFFFF",
+			count: 30,
+			overlap: 0,
+			speed: 1,
+			minSize: 4,
+			maxSize: 7,
+			direction: "both"
+		});
+		$("h3").sparkle({
+			color: "#0000FF"
+		});
+		$("h3").sparkle({
+			count: 50
+		});
+		$("h3").sparkle({
+			overlap: 20
+		});
+		$("h3").sparkle({
+			speed: 1.2
+		});
+		$("h3").sparkle({
+			minSize: 2,
+			maxSize: 6
+		});
+		$("h3").sparkle({
+			direction: "both"
+		});
+	</script>
 </body>
 </html>
